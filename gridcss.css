@@ -1,0 +1,104 @@
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    align-items: center;
+    grid-template-rows: 300px 300px 300px;
+    background-color: hsl(0, 0%, 95%);
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+
+        
+}
+
+/* .grid-container:after{
+    content: "";
+    display: table;
+    clear: both;
+
+} */
+
+
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+#one{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+
+#but1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+
+#two{
+    background-color: hsl(184, 100%, 22%);
+    
+    
+}
+
+#but2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);  
+}
+
+#three{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+    
+}
+
+#but3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    padding: 15px 20px 10px 20px;
+    /* text-align: left; */
+}
+
+.nav-bar{
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(0, 183, 255);
+    overflow: hidden;
+    
+}
+
+.nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 14px 16px;
+    text-decoration:hsl(31, 77%, 52%) ;
+    font-size: 17px;
+    /* float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+
+.nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+.nav-bar a.active {
+    background-color: #aa9904;
+    color: white;
+}
